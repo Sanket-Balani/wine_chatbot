@@ -1,7 +1,3 @@
-Here's a `README.md` for your Wine Chatbot project based on the format provided:
-
----
-
 # Wine Chatbot: Intelligent Q&A System
 
 This project involves creating an intelligent chatbot for a wine business that can answer customer queries based on a specific corpus of information about their products. The chatbot uses Elasticsearch for indexing and searching, SentenceTransformers for semantic understanding, and Streamlit for a user-friendly interface.
@@ -41,17 +37,6 @@ The chatbot intelligently interprets these questions, searches the corpus for re
 
 3. Ensure Elasticsearch is installed and running on your local machine. For setup instructions, refer to the [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html).
 
-4. Download and install the `sentence-transformers` library:
-
-   ```bash
-   pip install sentence-transformers
-   ```
-
-5. For text extraction from PDF, install `PyMuPDF`:
-
-   ```bash
-   pip install pymupdf
-   ```
 
 ## Usage
 
@@ -81,8 +66,10 @@ The chatbot intelligently interprets these questions, searches the corpus for re
 - `app.py`: The main Streamlit application script.
 - `index_corpus.py`: Script for preprocessing and indexing the corpus into Elasticsearch.
 - `requirements.txt`: A list of required Python packages for the project.
-- `sample_qa.json`: JSON file containing sample question-answer pairs for predefined responses.
-- `corpus.pdf`: The PDF file containing the corpus of wine-related information.
+- `Sample Question Answers.json`: JSON file containing sample question-answer pairs for predefined responses.
+- `Corpus.pdf`: The PDF file containing the corpus of wine-related information.
+- `Wine Chatbot PDF.pdf`: The PDF file containing the project related information.
+- `chatbot_video.mp4`: The video demonstratin of the project.
 
 ## Troubleshooting
 

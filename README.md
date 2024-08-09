@@ -1,4 +1,5 @@
-# Wine Chatbot: Intelligent Q&A System
+# WineWise
+### A Wine Chatbot with Intelligent Q&A System
 
 This project involves creating an intelligent chatbot for a wine business that can answer customer queries based on a specific corpus of information about their products. The chatbot uses Elasticsearch for indexing and searching, SentenceTransformers for semantic understanding, and Streamlit for a user-friendly interface.
 
